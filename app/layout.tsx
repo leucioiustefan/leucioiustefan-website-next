@@ -1,4 +1,4 @@
-import { geistMono, geistSans } from "@/utils/fonts/fonts";
+import { inter } from "@/utils/fonts/fonts";
 import "@/utils/globals.css";
 
 export { metadata } from "../utils/seo/metadata";
@@ -11,9 +11,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable}  antialiased font-sans`}
-      >
+      <body className={`${inter.className} antialiased font-sans`}>
         <div className="mx-auto min-h-screen max-w-screen-xl px-6">
           {children}
         </div>
