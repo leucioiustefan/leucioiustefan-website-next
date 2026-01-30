@@ -1,3 +1,4 @@
+import CursorGlow from "@/Components/CursorGlow";
 import { inter } from "@/utils/fonts/fonts";
 import "@/utils/globals.css";
 
@@ -12,6 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased font-sans`}>
+        <CursorGlow />
         <div className="mx-auto min-h-screen max-w-screen-xl px-6">
           {children}
         </div>
