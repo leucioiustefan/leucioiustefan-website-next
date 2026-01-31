@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = () => {
   return (
     <header className="lg:sticky lg:top-0 lg:h-screen lg:w-[48%] lg:flex lg:flex-col lg:justify-between py-30 gap-4">
