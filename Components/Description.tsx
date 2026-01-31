@@ -20,10 +20,10 @@ const Description = () => {
       <p>
         Previously, I’ve worked across diverse environments—mobile and
         web—ranging from product studios and startups to large technology
-        companies such as
+        companies across the globe such as
         <span className="text-slate-200">
           {" "}
-          IBM, BP Digital, Oren Mining, and ZeroBounce
+          IBM, BP Digital Uk, Jellysmack France, and Hertza LLC from USA
         </span>
         —an award-winning email marketing platform . These experiences have
         strongly influenced how I approach product development today.
