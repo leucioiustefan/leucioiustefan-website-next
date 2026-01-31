@@ -10,11 +10,11 @@ const Experience = () => {
     lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]
 lg:hover:drop-shadow-lg"
       >
-        <span className="w-28 shrink-0 whitespace-nowrap z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
-          2025-PRESENT
+        <span className="w-22 shrink-0 whitespace-nowrap z-10 mt-1 text-[10px] font-semibold uppercase tracking-wide text-slate-500">
+          2025 — present
         </span>
         <div>
-          <p className="text-normal font-medium text-slate-200 mb-3 tracking-normal lg:group-hover:text-special">
+          <p className="text-normal font-medium text-slate-200 mb-1 tracking-normal lg:group-hover:text-special">
             Senior software engineer — Epassi Netherlands
           </p>
           <p className="text-normal text-[14px] mb-3 tracking-tight">
@@ -24,8 +24,20 @@ lg:hover:drop-shadow-lg"
             nesciunt nihil earum.
           </p>
           <p>
-            <span>
-              Javascript, Typescript, React Query, Zustand, Next.js, Node.js
+            <span className="text-special text-[11px] px-2 py-1 mr-2 rounded-full bg-special/15">
+              Javascript
+            </span>
+            <span className="text-special text-[11px] px-2 py-1 mr-2 rounded-full bg-special/15">
+              Typescript
+            </span>
+            <span className="text-special text-[11px] px-2 py-1 mr-2 rounded-full bg-special/15">
+              React
+            </span>
+            <span className="text-special text-[11px] px-2 py-1 mr-2 rounded-full bg-special/15">
+              Next.js
+            </span>
+            <span className="text-special text-[11px] px-2 py-1 mr-2 rounded-full bg-special/15">
+              Node.js
             </span>
           </p>
         </div>
@@ -40,11 +52,11 @@ lg:hover:drop-shadow-lg"
     lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]
 lg:hover:drop-shadow-lg"
       >
-        <span className="w-28 shrink-0 whitespace-nowrap z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
-          2022-2025
+        <span className="w-22 shrink-0 whitespace-nowrap z-10 mt-1 text-[10px] font-semibold uppercase tracking-wide text-slate-500">
+          2022 — 2025
         </span>
         <div>
-          <p className="text-normal font-medium text-slate-200 mb-3 tracking-normal lg:group-hover:text-special">
+          <p className="text-normal font-medium text-slate-200 mb-1 tracking-normal lg:group-hover:text-special">
             Lead software engineer — Hertza LLC
           </p>
           <p className="text-normal text-[14px] mb-3 tracking-tight">
@@ -69,11 +81,11 @@ lg:hover:drop-shadow-lg"
     lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]
 lg:hover:drop-shadow-lg"
       >
-        <span className="w-28 shrink-0 whitespace-nowrap z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
-          2022-PRESENT2
+        <span className="w-22 shrink-0 whitespace-nowrap z-10 mt-1 text-[10px] font-semibold uppercase tracking-wide text-slate-500">
+          2022 — 2023
         </span>
         <div>
-          <p className="text-normal font-medium text-slate-200 mb-3 tracking-normal lg:group-hover:text-special">
+          <p className="text-normal font-medium text-slate-200 mb-1 tracking-normal lg:group-hover:text-special">
             Senior software engineer — Epassi Netherlands
           </p>
           <p className="text-normal text-[14px] mb-3 tracking-tight">
@@ -98,11 +110,11 @@ lg:hover:drop-shadow-lg"
     lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]
 lg:hover:drop-shadow-lg"
       >
-        <span className="w-28 shrink-0 whitespace-nowrap z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
-          2021-2022
+        <span className="w-22 shrink-0 whitespace-nowrap z-10 mt-1 text-[10px] font-semibold uppercase tracking-wide text-slate-500">
+          2021 — 2022
         </span>
         <div>
-          <p className="text-normal font-medium text-slate-200 mb-3 tracking-normal lg:group-hover:text-special">
+          <p className="text-normal font-medium text-slate-200 mb-1 tracking-normal lg:group-hover:text-special">
             Senior software engineer — Epassi Netherlands
           </p>
           <p className="text-normal text-[14px] mb-3 tracking-tight">
