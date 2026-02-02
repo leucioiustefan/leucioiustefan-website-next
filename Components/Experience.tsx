@@ -39,6 +39,9 @@ lg:hover:drop-shadow-lg"
             <span className="text-special text-[11px] px-2 py-1 mr-2 rounded-full bg-special/15">
               Node.js
             </span>
+            <span className="text-special text-[11px] px-2 py-1 mr-2 rounded-full bg-special/15">
+              AWS
+            </span>
           </p>
         </div>
       </a>
