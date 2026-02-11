@@ -2,36 +2,27 @@ const Description = () => {
   return (
     <>
       <p>
-        I’m a full-stack engineer with a strong specialization in frontend
-        development, passionate about building pixel-perfect, intuitive user
-        interfaces. I enjoy working at the intersection of design and
-        engineering, where great user experience meets clean, scalable, and
-        reliable backend architecture.
+        Senior Frontend Engineer specializing in React and Next.js, with 5+
+        years building web applications for companies across Europe and the US —
+        including IBM, BP Digital, Jellysmack, Hertza, and Epassi Netherlands.
       </p>
       <p>
-        Currently, I work as a Senior Engineer at{" "}
-        <span className="text-slate-200"> Epassi Netherlands</span>,
-        contributing to multiple user and B2B portals that support and evolve
-        our platform. In this role, I am leading the migration from a
-        traditional role-based access model to an enterprise-grade
-        attribute-based permission system, improving both flexibility and
-        security across the application.
+        I work at the intersection of product and engineering — I care about
+        user experience, but I care just as much about the architecture behind
+        it. My focus is on Next.js, TypeScript, and performance optimization,
+        with growing experience integrating AI capabilities into frontend
+        products.
       </p>
       <p>
-        Previously, I’ve worked across diverse environments—mobile and
-        web—ranging from product studios and startups to large technology
-        companies across the globe such as
-        <span className="text-slate-200">
-          {" "}
-          IBM, BP Digital Uk, Jellysmack France, and Hertza LLC from USA
-        </span>
-        —an award-winning email marketing platform . These experiences have
-        strongly influenced how I approach product development today.
+        Currently at <span className="text-slate-200"> Epassi Netherlands</span>
+        , where I work on the components that help maintain and evolve our
+        portals — a project that touches both frontend architecture and security
+        design.
       </p>
       <p>
-        Outside of work, you’ll usually find me reading, training for marathons,
-        or exploring unknown bike trails across Romania—often collecting
-        inspiration and data for my next app idea.
+        I&apos;m currently open to remote contract opportunities with companies
+        looking for a senior frontend engineer who can own features end-to-end
+        and communicate clearly across time zones.
       </p>
     </>
   );
