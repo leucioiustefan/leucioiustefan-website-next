@@ -1,6 +1,9 @@
 const Description = () => {
   return (
     <>
+      <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+        About
+      </h2>
       <p>
         Senior Frontend Engineer specializing in React and Next.js, with 5+
         years building web applications for companies across Europe and the US —
@@ -18,11 +21,6 @@ const Description = () => {
         , where I work on the components that help maintain and evolve our
         portals — a project that touches both frontend architecture and security
         design.
-      </p>
-      <p>
-        I&apos;m currently open to remote contract opportunities with companies
-        looking for a senior frontend engineer who can own features end-to-end
-        and communicate clearly across time zones.
       </p>
     </>
   );

@@ -1,4 +1,5 @@
 import Navigation from "./Navigation";
+import Socials from "./Socials";
 
 const Header = () => {
   return (
@@ -14,12 +15,7 @@ const Header = () => {
         </p>
       </div>
       <Navigation />
-      <div>
-        <li>Social1</li>
-        <li>Social2</li>
-        <li>Social3</li>
-        <li>Social4</li>
-      </div>
+      <Socials />
     </header>
   );
 };

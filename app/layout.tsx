@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} antialiased font-sans`}>
         <CursorGlow />
-        <div className="mx-auto min-h-screen max-w-screen-xl px-6 lg:flex lg:justify-between gap-4">
+        <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-15 lg:flex lg:justify-between lg:py-0 gap-4">
           <Header />
           {children}
         </div>
