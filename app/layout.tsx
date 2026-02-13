@@ -1,5 +1,6 @@
 import CursorGlow from "@/Components/CursorGlow";
 import Header from "@/Components/Header";
+import { Analytics } from "@vercel/analytics/next";
 import { inter } from "@/utils/fonts/fonts";
 import "@/utils/globals.css";
 
@@ -13,6 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Analytics />
       <body className={`${inter.className} antialiased font-sans`}>
         <CursorGlow />
         <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-15 lg:flex lg:justify-between lg:py-0 gap-4">
