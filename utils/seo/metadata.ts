@@ -2,28 +2,26 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "Stefan Leucioiu – Senior Software Developer",
+    default: "Stefan Leucioiu – Senior Frontend Engineer",
     template: "%s | Stefan Leucioiu",
   },
 
   description:
-    "Senior full-stack developer specializing in Next.js and React. I build and deploy high-performance, pixel-perfect web applications and AI-driven products.",
+    "Senior frontend engineer specializing in Next.js and React. I build and deploy high-performance, pixel-perfect web applications and AI-driven products.",
 
   keywords: [
     "Next.js developer",
     "React developer",
-    "Node developer",
-    "Full stack developer",
+    "Front end developer",
     "TypeScript",
     "Web performance",
     "TDD development",
     "AI integration",
   ],
 
-  authors: [{ name: "Stefan Leucioiu", url: "https://yourdomain.com" }],
   creator: "Stefan Leucioiu",
 
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://stefanleucioiu.net"),
   manifest: "/site.webmanifest",
 
   icons: {
@@ -49,25 +47,26 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    url: "https://yourdomain.com",
-    title: "Stefan Leucioiu – Senior Software Developer",
+    url: "https://stefanleucioiu.net",
+    title: "Stefan Leucioiu – Senior Frontend Engineer",
     description:
-      "Building scalable, high-performance end-to-end web apps with Next.js, React, TypeScript and Node.",
+      "Building modern web applications with Next.js, React, and TypeScript",
     siteName: "Stefan Leucioiu Personal Website",
     images: [
       {
-        url: "/og-image.png", // will create this later
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Stefan Leucioiu Personal Website",
+        alt: "Stefan Leucioiu - Senior Frontend Engineer specializing in Next.js and React",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Stefan Leucioiu – Senior Software Developer",
-    description: "Next.js & React specialist building modern web applications.",
+    title: "Stefan Leucioiu – Senior Frontend Engineer",
+    description:
+      "Building modern web applications with Next.js, React, and TypeScript",
     images: ["/og-image.png"],
   },
 };
