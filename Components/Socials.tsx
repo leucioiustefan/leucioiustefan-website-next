@@ -1,5 +1,3 @@
-import React from "react";
-
 const Socials = () => {
   const socials = [
     {
@@ -34,7 +32,7 @@ const Socials = () => {
     },
     {
       name: "Email",
-      href: "mailto:leucioiu.stefan@gmail.com",
+      href: "mailto:stefanleucioiu@gmail.com",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
