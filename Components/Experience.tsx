@@ -12,7 +12,7 @@ const Experience = () => {
       <Softbinator />
       <Ibm />
       <Link
-        className="text-normal font-medium text-slate-200 tracking-normal lg:hover:text-special lg:hover:underline"
+        className="text-lg font-medium text-slate-200 leading-relaxed lg:hover:text-special lg:hover:underline underline mt-4"
         href="stefan_leucioiu_resume.pdf"
         target="_blank"
       >

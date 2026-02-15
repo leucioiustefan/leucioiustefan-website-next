@@ -1,15 +1,14 @@
 @import "tailwindcss";
+@theme inline {
+  --color-special: var(--special);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
 
 :root {
   --background: #0f172a;
   --foreground: #94a3b8;
   --special: #22d3ee;
-}
-
-@theme inline {
-  --color-special: var(--special);
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
 }
 
 ::selection {
@@ -23,6 +22,5 @@
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
 }
