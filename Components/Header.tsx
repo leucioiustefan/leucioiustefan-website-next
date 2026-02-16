@@ -3,7 +3,7 @@ import Socials from "./Socials";
 
 const Header = () => {
   return (
-    <header className="lg:sticky lg:top-0 lg:h-screen lg:w-[48%] lg:flex lg:flex-col lg:justify-between lg:py-30 gap-4">
+    <header className="lg:sticky lg:top-0 lg:h-screen lg:w-[48%] lg:flex lg:flex-col lg:justify-between lg:py-30 gap-4 pb-25">
       <div>
         <h1 className="text-5xl font-bold tracking-tight text-slate-200 mb-5">
           Stefan Leucioiu
