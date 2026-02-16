@@ -13,7 +13,7 @@ const Experience = () => {
       <Ibm />
       <Link
         className="text-lg font-medium text-slate-200 leading-relaxed lg:hover:text-special lg:hover:underline underline mt-4"
-        href="stefan_leucioiu_resume.pdf"
+        href="/stefan_leucioiu_resume.pdf"
         target="_blank"
       >
         View Full Resume
