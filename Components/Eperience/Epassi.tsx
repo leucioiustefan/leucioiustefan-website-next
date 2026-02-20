@@ -7,7 +7,7 @@ const Epassi = () => {
       className="group flex gap-6 px-3 py-3 transition rounded-sm
    lg:hover:bg-[rgba(23,39,75,1)]
     lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]
-lg:hover:drop-shadow-lg"
+lg:hover:drop-shadow-lg block"
     >
       <span className="hidden md:block w-fit shrink-0 mt-2 whitespace-nowrap z-10 text-xs font-semibold uppercase tracking-wide text-slate-400">
         AUG 2025 — present

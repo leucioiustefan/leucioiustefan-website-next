@@ -21,10 +21,10 @@ lg:hover:drop-shadow-lg"
         </p>
         <p className="text-base mb-2 leading-relaxed">
           Build, style, and ship high-quality websites, design systems, mobile
-          apps and digital experiences for a diverse array of projects for
-          clients including <span className="text-slate-200"> BP Digital</span>,{" "}
-          <span className="text-slate-200"> Shell South Africa</span>. Gained
-          experience within the engineering department through close
+          apps and digital experiences for a diverse array of projects for IBM
+          clients including <span className="text-slate-200"> BP Digital </span>
+          and <span className="text-slate-200"> Shell South Africa</span>.
+          Gained experience within the engineering department through close
           collaboration, knowledge sharing, and development of internal tools.
         </p>
 

@@ -54,7 +54,7 @@ const Socials = () => {
   ];
 
   return (
-    <div className="flex items-center gap-5">
+    <div className="flex items-center gap-5 mt-3">
       {socials.map((social) => (
         <a
           key={social.name}
