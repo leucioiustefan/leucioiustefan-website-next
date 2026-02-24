@@ -10,14 +10,18 @@ const Description = () => {
         including{" "}
         <span className="font-medium text-slate-200">
           {" "}
-          IBM, BP Digital, Jellysmack, Hertza, and Epassi Netherlands.
+          IBM, BP Digital, Jellysmack, Hertza{" "}
         </span>
+        and{" "}
+        <span className="font-medium text-slate-200">Epassi Netherlands</span>.
       </p>
       <p className="mt-3 text-lg leading-relaxed">
         I work at the intersection of product and engineering. I care about user
         experience, but I care just as much about the architecture behind it. My
         focus is on Next.js, TypeScript, and performance optimization, with
-        growing experience integrating AI capabilities into frontend products.
+        growing experience integrating{" "}
+        <span className="font-medium text-slate-200">AI</span> capabilities into
+        frontend products.
       </p>
       <p className="mt-3 text-lg leading-relaxed">
         Currently at{" "}

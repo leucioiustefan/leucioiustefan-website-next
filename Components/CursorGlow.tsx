@@ -43,7 +43,7 @@ const CursorGlow = () => {
       ref={glowRef}
       className="pointer-events-none fixed left-0 top-0 z-40 h-[600px] w-[600px] rounded-full
         opacity-40
-        bg-[radial-gradient(circle,rgba(59,130,246,0.15)_0%,rgba(59,130,246,0.05)_30%,transparent_60%)]
+        bg-[radial-gradient(circle,rgba(34,211,238,0.15)_0%,rgba(34,211,238,0.05)_30%,transparent_60%)]
         will-change-transform"
     />
   );

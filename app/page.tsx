@@ -1,8 +1,7 @@
-"use client";
-
 import Description from "@/Components/Description";
 import Experience from "@/Components/Experience";
 import Projects from "@/Components/Projects";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,25 +19,75 @@ export default function Home() {
         <Experience />
       </section>
 
-      {/* <section
+      <section
         id="projects"
         className="text-sm font-normal leading-6 tracking-wide lg:flex lg:flex-col lg:justify-between gap-6"
       >
-        <Projects />
-        <a
+        {/* <Projects /> */}
+        <Link
           className="text-lg font-medium text-slate-200 leading-relaxed lg:hover:text-special lg:hover:underline underline block mt-10 lg:mt-5"
-          href="/stefan_leucioiu_resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/projects"
         >
           View Project Archive
-        </a>
-        <p className="text-base leading-relaxed max-w-[500px] mt-10">
-          Build, style, and ship high-quality websites, design systems, mobile
-          clients including <span className="text-slate-200"> BP Digital</span>,{" "}
-          <span className="text-slate-200"> Shell South Africa</span>. Gained
+        </Link>
+        <p className="text-sm leading-relaxed max-w-[500px] mt-10">
+          Website designed in{" "}
+          <a
+            className="text-slate-200"
+            rel="noopener noreferrer nofollow"
+            href="https://www.figma.com/"
+            target="_blank"
+          >
+            Figma
+          </a>{" "}
+          and coded in{" "}
+          <a
+            className="text-slate-200"
+            rel="noopener noreferrer nofollow"
+            href="https://code.visualstudio.com/"
+            target="_blank"
+          >
+            Visual Studio Code
+          </a>{" "}
+          by me. Build with{" "}
+          <a
+            className="text-slate-200"
+            rel="noopener noreferrer nofollow"
+            href="https://nextjs.org/"
+            target="_blank"
+          >
+            Next.js
+          </a>{" "}
+          and{" "}
+          <a
+            className="text-slate-200"
+            rel="noopener noreferrer nofollow"
+            href="https://tailwindcss.com/"
+            target="_blank"
+          >
+            Tailwind CSS
+          </a>
+          , deployed with{" "}
+          <a
+            className="text-slate-200"
+            rel="noopener noreferrer nofollow"
+            href="https://vercel.com/"
+            target="_blank"
+          >
+            Vercel
+          </a>
+          . The code for the website can be found on{" "}
+          <a
+            className="text-slate-200"
+            rel="noopener noreferrer nofollow"
+            href="https://vercel.com/"
+            target="_blank"
+          >
+            Github
+          </a>
+          .
         </p>
-      </section> */}
+      </section>
     </main>
   );
 }
