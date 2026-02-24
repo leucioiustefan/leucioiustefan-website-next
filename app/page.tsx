@@ -49,7 +49,7 @@ export default function Home() {
           >
             Visual Studio Code
           </a>{" "}
-          by me. Build with{" "}
+          . Build with{" "}
           <a
             className="text-slate-200"
             rel="noopener noreferrer nofollow"
@@ -76,11 +76,11 @@ export default function Home() {
           >
             Vercel
           </a>
-          . The code for the website can be found on{" "}
+          . The code for the website can be found on my{" "}
           <a
             className="text-slate-200"
             rel="noopener noreferrer nofollow"
-            href="https://vercel.com/"
+            href="https://github.com/leucioiustefan/leucioiustefan-website-next"
             target="_blank"
           >
             Github
