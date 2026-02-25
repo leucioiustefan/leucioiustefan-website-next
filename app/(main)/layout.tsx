@@ -7,7 +7,7 @@ export default function HomepageLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="mx-auto min-h-screen max-w-screen-2xl lg:flex lg:justify-between gap-4">
+    <div className="mx-auto min-h-screen max-w-screen-2xl px-6 lg:flex lg:justify-between gap-4">
       <Header />
       {children}
     </div>
