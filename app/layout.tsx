@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased font-sans`}>
         <GridBackground>
           <CursorGlow />
-          <div className="mx-auto min-h-screen max-w-screen-2xl px-6 py-15">
+          <div className="mx-auto min-h-screen max-w-screen-2xl px-6 py-15 lg:py-0">
             {children}
           </div>
         </GridBackground>
