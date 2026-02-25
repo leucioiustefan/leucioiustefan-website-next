@@ -4,7 +4,7 @@ import { projects } from "@/utils/constants";
 
 const ProjectsPage = () => {
   return (
-    <div className="py-24 lg:py-32">
+    <div className="lg:py-10">
       <div className="mx-auto max-w-2xl px-6 lg:px-0">
         <Link
           href="/"
