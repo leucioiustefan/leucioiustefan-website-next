@@ -30,9 +30,9 @@ const ProjectCard = ({
 
       <div className="flex flex-col gap-2">
         <div className="flex flex-wrap items-center gap-2">
-          <h3 className="text-base font-semibold leading-snug text-slate-200 transition-colors duration-200 group-hover:text-special">
+          <h2 className="text-base font-semibold leading-snug text-slate-200 transition-colors duration-200 group-hover:text-special">
             {title}
-          </h3>
+          </h2>
           <span
             className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ${statusStyles[status]}`}
           >
