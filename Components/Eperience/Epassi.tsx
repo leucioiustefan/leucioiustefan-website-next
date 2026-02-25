@@ -29,51 +29,23 @@ lg:hover:drop-shadow-lg block"
         </p>
 
         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Javascript
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Typescript
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              React
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Next.js
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Tailwind
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Zustand
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              React Query
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              AWS
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              TDD
-            </div>
-          </li>
+          {[
+            "Javascript",
+            "Typescript",
+            "React",
+            "Next.js",
+            "Tailwind",
+            "Zustand",
+            "React Query",
+            "AWS",
+            "TDD",
+          ].map((skill) => (
+            <li key={skill} className="mr-1.5 mt-2">
+              <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
+                {skill}
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     </a>

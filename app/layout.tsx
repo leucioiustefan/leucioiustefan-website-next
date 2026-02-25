@@ -1,5 +1,4 @@
 import CursorGlow from "@/Components/CursorGlow";
-import Header from "@/Components/Header";
 import { GridBackground } from "@/Components/GridBackground";
 import { Analytics } from "@vercel/analytics/next";
 import { inter } from "@/utils/fonts/fonts";
@@ -19,8 +18,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased font-sans`}>
         <GridBackground>
           <CursorGlow />
-          <div className="mx-auto min-h-screen max-w-screen-2xl px-6 py-15 lg:flex lg:justify-between lg:py-0 gap-4">
-            <Header />
+          <div className="mx-auto min-h-screen max-w-screen-2xl px-6 py-15">
             {children}
           </div>
         </GridBackground>

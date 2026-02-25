@@ -31,57 +31,25 @@ lg:hover:drop-shadow-lg"
           English and Spanish. Worked closely with the DevOps team to migrate
           from legacy Jenkins deployments to modern GitHub CI/CD.
         </p>
-        <ul className="mt-2 flex flex-wrap " aria-label="Technologies used">
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Javascript
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Typescript
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              React
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Angular
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Next.js
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Gatsby
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              GraphQL
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              CI/CD
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Jenkins
-            </div>
-          </li>
-          <li className="mr-1.5 mt-2">
-            <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
-              Github Actions
-            </div>
-          </li>
+        <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
+          {[
+            "Javascript",
+            "Typescript",
+            "React",
+            "Angular",
+            "Next.js",
+            "Gatsby",
+            "GraphQL",
+            "CI/CD",
+            "Jenkins",
+            "Github Actions",
+          ].map((skill) => (
+            <li key={skill} className="mr-1.5 mt-2">
+              <div className="flex items-center rounded-full bg-special/15 px-3 py-2 text-sm font-normal leading-5 text-special">
+                {skill}
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     </a>
