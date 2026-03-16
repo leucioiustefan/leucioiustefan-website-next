@@ -35,20 +35,6 @@ export default function Home() {
         </Link>
         <Footer />
       </section>
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-
-          const formData = new FormData(e.currentTarget);
-          const test = formData.get("count");
-          console.log(formData.get);
-        }}
-      >
-        <input type="text" name="count" id="countId" value={"some value"} />
-        <button name="button" type="submit">
-          Click
-        </button>
-      </form>
     </main>
   );
 }
