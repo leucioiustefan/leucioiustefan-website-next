@@ -12,8 +12,8 @@ const Header = () => {
           Frontend engineer
         </h2>
         <p className="mt-4 text-lg max-w-sm leading-relaxed text-slate-400">
-          I build accessible and performance focused, digital experiences for
-          the web.
+          I specialize in React/Next.js architectures and platform-scale UI
+          systems.
         </p>
       </div>
       <Navigation />

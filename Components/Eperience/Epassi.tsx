@@ -17,15 +17,15 @@ lg:hover:drop-shadow-lg block"
           AUG 2025 — present
         </span>
         <p className="text-lg font-medium text-slate-200 mb-4 leading-relaxed lg:group-hover:text-special">
-          Senior frontend engineer at Epassi Netherlands
+          Senior frontend engineer at Bedrijfsfitness Nederland
         </p>
         <p className="text-base mb-2 leading-relaxed">
-          Build and maintain the core component library powering 5 B2B and
+          Build and maintain the core component library powering 4 B2B and
           consumer portals serving active users across the BFNL platform.
           Collaborate with cross-functional teams including backend engineers,
           product designers, and stakeholders to deliver user-facing features,
-          while contributing to the migration from role-based to attribute-based
-          permissions and resolving critical security vulnerabilities.
+          while contributing to the overall architecture of the application and
+          resolving critical security vulnerabilities.
         </p>
 
         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">

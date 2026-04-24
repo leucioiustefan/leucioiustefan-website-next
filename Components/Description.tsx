@@ -13,7 +13,10 @@ const Description = () => {
           IBM, BP Digital, Jellysmack, Hertza{" "}
         </span>
         and{" "}
-        <span className="font-medium text-slate-200">Epassi Netherlands</span>.
+        <span className="font-medium text-slate-200">
+          Bedrijfsfitness Nederland
+        </span>
+        .
       </p>
       <p className="mt-3 text-lg leading-relaxed">
         I work at the intersection of product and engineering. I care about user
@@ -25,12 +28,13 @@ const Description = () => {
       </p>
       <p className="mt-3 text-lg leading-relaxed">
         Currently at{" "}
-        <span className="font-medium text-slate-200">Epassi Netherlands</span>,
-        I work on the components that help maintain our portals and evolve our
-        permission system from a role based approach to a scalable attribute
-        based system in order to handle the complexities of an enterprise
-        application. This is a project that touches both frontend architecture
-        and security design.
+        <span className="font-medium text-slate-200">
+          Bedrijfsfitness Nederland
+        </span>
+        , I work on the components that help maintain our portals and evolve our
+        architecture from a pure client-side rendering approach to a hybrid SSR
+        platform. This is a project that touches both frontend architecture and
+        security design.
       </p>
     </>
   );
