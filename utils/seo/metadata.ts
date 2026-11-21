@@ -1,22 +1,25 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "Stefan Leucioiu – Senior Frontend Engineer",
+    default: "Stefan Leucioiu – Senior Fullstack Engineer",
     template: "%s | Stefan Leucioiu",
   },
 
   description:
-    "Senior frontend engineer specializing in Next.js and React. I build and deploy high-performance, pixel-perfect web applications and AI-driven products.",
+    "Senior full stack engineer specializing in frontend/backend/agentic architectures. I build and deploy high-performance, pixel-perfect applications and AI-driven products.",
 
   keywords: [
+    "Fullstack developer",
+    "Agentic developer",
     "Next.js developer",
     "React developer",
-    "Front end developer",
+    "Node.js developer",
     "TypeScript",
+    "AI agents",
+    "LLM integration",
     "Web performance",
     "TDD development",
-    "AI integration",
   ],
 
   creator: "Stefan Leucioiu",
@@ -48,25 +51,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://stefanleucioiu.net",
-    title: "Stefan Leucioiu – Senior Frontend Engineer",
+    title: "Stefan Leucioiu – Senior Fullstack & Agentic Engineer",
     description:
-      "Building modern web applications with Next.js, React, and TypeScript",
+      "Senior fullstack engineer building high-performance web applications and AI-driven agentic products.",
     siteName: "Stefan Leucioiu Personal Website",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Stefan Leucioiu - Senior Frontend Engineer specializing in Next.js and React",
+        alt: "Stefan Leucioiu - Senior Fullstack & Agentic Engineer",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Stefan Leucioiu – Senior Frontend Engineer",
+    title: "Stefan Leucioiu – Senior Fullstack & Agentic Engineer",
     description:
-      "Building modern web applications with Next.js, React, and TypeScript",
+      "Senior fullstack engineer building high-performance web applications and AI-driven agentic products.",
     images: ["/og-image.png"],
   },
 };

@@ -1,8 +1,9 @@
+import Link from "next/link";
 import Epassi from "./Eperience/Epassi";
 import Hertza from "./Eperience/Hertza";
-import Jellysmack from "./Eperience/Jellysmack";
 import Ibm from "./Eperience/Ibm";
-import Link from "next/link";
+import Jellysmack from "./Eperience/Jellysmack";
+import Printec from "./Eperience/Printec";
 
 const Experience = () => {
   return (
@@ -10,6 +11,9 @@ const Experience = () => {
       <h2 className="text-lg font-bold uppercase tracking-widest text-slate-200 mb-5 mt-15 lg:sr-only">
         Experience
       </h2>
+      <div className="py-5 lg: py-0">
+        <Printec />
+      </div>
       <div className="py-5 lg: py-0">
         <Epassi />
       </div>

@@ -10,11 +10,11 @@ const Epassi = () => {
 lg:hover:drop-shadow-lg block"
     >
       <span className="hidden md:block w-fit shrink-0 mt-2 whitespace-nowrap z-10 text-xs font-semibold uppercase tracking-wide text-slate-400">
-        AUG 2025 — present
+        AUG 2025 — JUNE 2026
       </span>
       <div>
         <span className="block md:hidden w-fit shrink-0 whitespace-nowrap z-10 text-xs font-semibold uppercase tracking-wide text-slate-400">
-          AUG 2025 — present
+          AUG 2025 — JUNE 2026
         </span>
         <p className="text-lg font-medium text-slate-200 mb-4 leading-relaxed lg:group-hover:text-special">
           Senior frontend engineer at Bedrijfsfitness Nederland

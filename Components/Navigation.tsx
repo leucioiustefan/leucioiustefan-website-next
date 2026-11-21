@@ -29,10 +29,12 @@ const Navigation = () => {
           setActiveSection(active);
         }
       },
-      { threshold: 0.3 },
+      { threshold: 0.3 }
     );
 
-    sections.forEach((section) => observer.observe(section));
+    sections.forEach((section) => {
+      observer.observe(section);
+    });
 
     return () => observer.disconnect();
   }, []);
